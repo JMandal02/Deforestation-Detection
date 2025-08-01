@@ -4,6 +4,17 @@
 
 This project focuses on detecting and classifying fire events across India using thermal anomaly data from NASA's MODIS (Moderate Resolution Imaging Spectroradiometer) satellite sensors. The classification includes vegetation fires, agricultural burns, volcanic activity, and offshore/static thermal sources.
 
+
+## Demo 🚀
+Live Deployment:[https://deforestation-detection.streamlit.app/](https://deforestation-detection.streamlit.app/)
+
+## 📦 Model Access
+
+Due to GitHub's file size limit (25 MB), the trained model (`best_fire_detection_model.pkl`, 460.1 MB) is hosted on Google Drive.
+
+👉 **[Download the trained model here](https://drive.google.com/drive/folders/1ub_ktWHXdvv2kn104xwa1QrYq2Z0_DM3?usp=sharing)**
+
+
 ## 📌 Objective
 
 Leverage MODIS data from **2021 to 2023** to develop a **machine learning model** that identifies the source of thermal anomalies. This is crucial for:
@@ -21,11 +32,7 @@ Leverage MODIS data from **2021 to 2023** to develop a **machine learning model*
 - 📊 **Interactive and reproducible ML pipeline**
 - 🇮🇳 **Country-specific focus**: India dataset (2021–2023)
 
-## 📦 Model Access
 
-Due to GitHub's file size limit (25 MB), the trained model (`best_fire_detection_model.pkl`, 460.1 MB) is hosted on Google Drive.
-
-👉 **[Download the trained model here](https://drive.google.com/drive/folders/1ub_ktWHXdvv2kn104xwa1QrYq2Z0_DM3?usp=sharing)**
 
 > ✅ **For Students:** If your model file is large, upload it to Google Drive and add the link to your `README.md`, just like this example.
 
