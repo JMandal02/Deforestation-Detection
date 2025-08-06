@@ -19,17 +19,17 @@ Due to GitHub's file size limit (25 MB), the trained model (`best_fire_detection
 
 Leverage MODIS data from **2021 to 2023** to develop a **machine learning model** that identifies the source of thermal anomalies. This is crucial for:
 
-- 🌳 Environmental and deforestation monitoring
-- 🚨 Real-time disaster response
-- 📈 Data-driven resource management
-- 🧪 Long-term ecological analysis
+-  Environmental and deforestation monitoring
+-  Real-time disaster response
+-  Data-driven resource management
+-  Long-term ecological analysis
 
 ## 🚀 Features
 
-- 🔍 **Accurate classification**: Vegetation, volcano, static land, offshore fire types
-- 🌐 **Geospatial data integration**: MODIS thermal readings with location data
-- 🛰️ **Dual satellite source**: Aqua (PM) and Terra (AM) observations
-- 📊 **Interactive and reproducible ML pipeline**
+-  **Accurate classification**: Vegetation, volcano, static land, offshore fire types
+-  **Geospatial data integration**: MODIS thermal readings with location data
+- 🛰 **Dual satellite source**: Aqua (PM) and Terra (AM) observations
+- **Interactive and reproducible ML pipeline**
 - 🇮🇳 **Country-specific focus**: India dataset (2021–2023)
 
 
@@ -42,10 +42,10 @@ India experiences thousands of fire incidents annually, ranging from wildfires t
 
 This project addresses the challenge by:
 
-- ✅ Preprocessing MODIS fire data (2021–2023)
-- 🧠 Engineering thermal, temporal, and geospatial features
-- 🤖 Training ML models to classify fire sources
-- 🔁 Building a scalable and reusable ML pipeline
+- Preprocessing MODIS fire data (2021–2023)
+- Engineering thermal, temporal, and geospatial features
+- Training ML models to classify fire sources
+-  Building a scalable and reusable ML pipeline
 
 ## 🗃️ MODIS Dataset Summary
 
@@ -64,13 +64,6 @@ MODIS detects thermal anomalies using contextual algorithms across multiple spec
 - 🔸 **Bands 21/22** – Mid-infrared for fire detection
 - 🔸 **Band 31** – Thermal infrared for surface temperature
 
-Pixels are classified into:
-- 🔥 Fire
-- 🌊 Water
-- ☁️ Cloud
-- ❓ Unknown
-- 🚫 Missing
-- ❌ Non-fire
 
 > 🔧 **Note:** NRT (Near Real-Time) data may contain minor spatial inaccuracies due to orbit estimation.
 
@@ -139,7 +132,7 @@ fire-classification-modis/
 ├── notebooks/               # Jupyter notebooks for analysis
 ├── src/                     # Source code
 ├── models/                  # Model files (download separately)
-└──requirements.txt         # Python dependencies
+└──requirements.txt          # Python dependencies
 
 ```
 
@@ -169,9 +162,6 @@ Areas for contribution:
 - Advanced visualization techniques
 - Real-time data integration
 
-## 📄 License
-
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
 ## 🙋‍♂️ Acknowledgments
 
