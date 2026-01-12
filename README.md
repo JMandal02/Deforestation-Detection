@@ -1,6 +1,5 @@
 # 🔥 Classification of Fire Types in India Using MODIS Satellite Data (2021–2023)
 
-**AICTE Internship – Cycle 2 Project**
 
 This project focuses on detecting and classifying fire events across India using thermal anomaly data from NASA's MODIS (Moderate Resolution Imaging Spectroradiometer) satellite sensors. The classification includes vegetation fires, agricultural burns, volcanic activity, and offshore/static thermal sources.
 
@@ -166,7 +165,6 @@ Areas for contribution:
 ## 🙋‍♂️ Acknowledgments
 
 - **NASA FIRMS** for providing open access to MODIS fire data
-- **AICTE** for offering this opportunity under **Internship Cycle 2**
 - The open-source community for the tools and libraries used
 
 
